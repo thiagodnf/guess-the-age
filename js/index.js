@@ -55,6 +55,8 @@ function loadLanguage(){
 function finish(soma){
     $(".result").html("<h2>Sua idade é "+soma+" anos</h2><p>&nbsp;</p>");
     $(".toolbox button").prop('disabled', true);
+    $(".toolbox").addClass("d-none");
+    $(".toolbox-again").removeClass("d-none");
     return;
 }
 
@@ -114,6 +116,14 @@ $(function(){
         }
 
         printMatrix(matrices[currentIndex]);
+
+        return false;
+    });
+
+    $(".btn-refresh").click(function(event){
+        event.preventDefault();
+
+        location.reload();
 
         return false;
     });
