@@ -1,0 +1,26 @@
+{
+	"name": "guess-the-age",
+	"version": "1.0.0",
+	"description": "This app is going to guess your age",
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"engines": {
+		"node": ">=8.9.1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/thiagodnf/guess-the-age.git"
+	},
+	"author": "Thiago N. Ferreira",
+	"license": "MIT",
+	"homepage": "https://thiagodnf.github.io/guess-the-age",
+	"dependencies": {
+		"serve-static": "^1.13.2",
+		"connect": "^3.6.6",
+		"network": "^0.4.1",
+		"winston": "^2.4.2",
+		"livereload": "^0.7.0"
+	}
+}

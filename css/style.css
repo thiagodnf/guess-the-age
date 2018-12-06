@@ -1,0 +1,21 @@
+body{
+    font-family: montserrat,"helvetica neue",helvetica,arial,sans-serif;
+    background-color: #f8f9fa;
+    color: #495057;
+}
+
+.container{
+    margin-top: 80px;
+}
+
+.matrix{
+    margin-top:50px;
+}
+.matrix .row{
+    margin-bottom: 20px;
+}
+
+.toolbox{
+    margin-top: 50px;
+}
+
